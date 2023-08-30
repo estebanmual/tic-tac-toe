@@ -1,0 +1,57 @@
+.container {
+    padding: 15px 17px 17px 17px;
+    color: var(--dark-navy);
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button_1 {
+    background: var(--light-yellow);
+    box-shadow: 0px -8px 0px 0px #CC8B13 inset;
+}
+
+.button_1:hover {
+    border-radius: 10px;
+    background: var(--light-yellow-hover);
+    box-shadow: 0px -8px 0px 0px #CC8B13 inset;
+}
+
+.button_2 {
+    background: var(--light-blue);
+    box-shadow: 0px -8px 0px 0px #118C87 inset;
+}
+
+.button_2:hover {
+    border-radius: 10px;
+    background: var(--light-blue-hover, #65E9E4);
+    box-shadow: 0px -8px 0px 0px #118C87 inset;
+}
+
+.button_primary {
+    border-radius: 15px;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+}
+
+.button_secondary {
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.button_2.button_secondary {
+    background: var(--silver, #A8BFC9);
+    box-shadow: 0px -4px 0px 0px #6B8997 inset;
+}
+
+.button_2.button_secondary:hover {
+    background: var(--silver-hover);
+    box-shadow: 0px -4px 0px 0px #6B8997 inset;
+}

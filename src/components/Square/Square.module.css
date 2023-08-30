@@ -1,0 +1,15 @@
+.container {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--semi-dark-navy, #1F3641);
+    box-shadow: 0px -8px 0px 0px #10212A inset;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.noClick {
+    pointer-events: none;
+    cursor: auto;
+}

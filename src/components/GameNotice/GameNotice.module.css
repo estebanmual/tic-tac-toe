@@ -1,0 +1,47 @@
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container::before {
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-color: black;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: var(--semi-dark-navy);
+    padding: 4.5rem 0;
+}
+
+.noticeContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 2.4rem;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 1.6rem;
+    margin-top: 3.1rem;
+}
+
+.image {
+    width: 64px;
+    height: 64px;
+}

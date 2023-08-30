@@ -1,0 +1,18 @@
+.noticeContainer {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.image {
+    width: 64px;
+    height: 64px;
+}
+
+.player1 {
+    color: var(--light-blue);
+}
+
+.player2 {
+    color: var(--light-yellow);
+}
